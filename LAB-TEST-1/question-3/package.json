@@ -1,0 +1,14 @@
+{
+  "name": "question-3",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "File Module",
+  "main": "add.js",
+  "scripts": {
+    "start": "nodemon add.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joel Santos",
+  "license": "ISC"
+}
