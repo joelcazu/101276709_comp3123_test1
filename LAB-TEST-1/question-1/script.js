@@ -3,10 +3,8 @@ const lowerCaseWords = (mixedArray) => {
       if (mixedArray.length >= 0 && Array.isArray(mixedArray)) {
         const filterArStr = mixedArray.filter((itemArray) => typeof itemArray === "string");
         const mapArLoCaseStr = filterArStr.map((itemFilterAr) =>
-        itemFilterAr.toLowerCase()
-        );
-        resolve(mapArLoCaseStr);
-      } else {
+        itemFilterAr.toLowerCase());
+        resolve(mapArLoCaseStr);} else {
         reject("Error");}});
   };
   
