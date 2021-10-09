@@ -1,0 +1,15 @@
+{
+  "name": "week05_thu_express_route_example",
+  "version": "1.0.0",
+  "description": "Express routes example",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=8081 node index.js",
+    "dev": "PORT=8082 nodemon index.js",
+    "uat": "PORT=8083 nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joel Santos",
+  "license": "ISC"
+}
